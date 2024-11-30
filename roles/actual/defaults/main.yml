@@ -90,7 +90,7 @@ actualbudget_docker_commands: "{{ actualbudget_docker_commands_default
 
 # Volumes
 actualbudget_docker_volumes_default:
-  - "{{ actualbudget_paths_location }}:/app/data"
+  - "{{ actualbudget_paths_location }}:/opt/data"
   - "/etc/localtime:/etc/localtime:ro"
   - "/run/udev:/run/udev:ro"
 actualbudget_docker_volumes_custom: []
